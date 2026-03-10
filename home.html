@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Your Name</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Reset & Basic Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #2d3436;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #636e72;
+            font-weight: 300;
+        }
+
+        /* Section Styling */
+        section {
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0984e3;
+            display: inline-block;
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+            color: #2d3436;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #4a4a4a;
+        }
+
+        /* Skills Tags */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: #e1f5fe;
+            color: #0288d1;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        /* Social Links */
+        .social-links {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #fff;
+            background: #2d3436;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 0 5px;
+            transition: background 0.3s;
+        }
+
+        .social-links a:hover {
+            background: #0984e3;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: #b2bec3;
+            margin-top: 50px;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .container { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <!-- Replace with your own image URL -->
+            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+            <h1>Alex Rivera</h1>
+            <p class="subtitle">Full-Stack Developer | UI/UX Enthusiast | Tech Blogger</p>
+        </header>
+
+        <!-- About Me -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I am a passionate software engineer based in San Francisco. With over 5 years of experience in building web applications, I focus on creating clean, user-friendly, and scalable solutions.
+            </p>
+            <p>
+                When I'm not coding, you can find me hiking in the mountains, reading sci-fi novels, or experimenting with new cooking recipes. I believe in continuous learning and sharing knowledge with the community.
+            </p>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <span class="skill-tag">JavaScript (ES6+)</span>
+                <span class="skill-tag">React.js</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">SQL & NoSQL</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">UI/UX Design</span>
+                <span class="skill-tag">Git</span>
+            </div>
+        </section>
+
+        <!-- Experience/Education -->
+        <section id="experience">
+            <h2>Experience</h2>
+            <p><strong>Senior Developer</strong> @ TechCorp (2020 - Present)</p>
+            <p style="font-size: 0.9rem; color: #636e72;">Led a team of 5 to develop a cloud-based SaaS platform used by 10k+ users.</p>
+            <br>
+            <p><strong>Web Developer</strong> @ Creative Studio (2018 - 2020)</p>
+            <p style="font-size: 0.9rem; color: #636e72;">Built responsive websites for international clients in the fashion and tech industry.</p>
+        </section>
+
+        <!-- Contact/Social -->
+        <div class="social-links">
+            <a href="mailto:yourname@example.com">Email Me</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+
+        <footer>
+            &copy; 2023 Alex Rivera. Built with ❤️ and Pure HTML/CSS.
+        </footer>
+    </div>
+
+</body>
+</html>
